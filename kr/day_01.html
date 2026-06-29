@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ユミ랑 언어공부 - 한국어 Lv.2 Day 01</title>
+<style>
+  :root{
+    --bg:#f7f3ed; --card:#fffaf3; --ink:#2f2923; --muted:#7b6f63;
+    --accent:#6f9f8f; --accent2:#52786f; --line:#dbe6dc; --soft:#edf5ef;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Noto Sans KR",sans-serif;line-height:1.72}
+  .page{max-width:980px;margin:0 auto;padding:34px 18px 80px}
+  .hero{background:linear-gradient(135deg,#f5fff8,#dceee6);border:1px solid var(--line);border-radius:28px;padding:32px;box-shadow:0 14px 40px rgba(40,80,55,.08)}
+  .label{display:inline-block;padding:5px 12px;border-radius:999px;background:#fff;color:var(--accent2);font-weight:700;font-size:13px;border:1px solid var(--line)}
+  h1{margin:12px 0 8px;font-size:34px;line-height:1.22}
+  h2{margin:42px 0 14px;font-size:24px;border-left:7px solid var(--accent);padding-left:12px}
+  h3{margin:18px 0 8px;font-size:18px;color:var(--accent2)}
+  .subtitle{color:var(--muted);font-size:16px;margin:0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;margin:14px 0;box-shadow:0 8px 22px rgba(40,80,55,.05)}
+  .goal{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+  .goal div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px}
+  .pattern{font-size:26px;font-weight:800;letter-spacing:.2px;margin:8px 0;color:#345d52}
+  .note{color:var(--muted);font-size:14px}
+  table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border-radius:18px;border:1px solid var(--line);background:#fff;margin:12px 0}
+  th,td{padding:14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#e4f0e8;text-align:left;color:#345d52}
+  tr:last-child td{border-bottom:none}
+  .practice td:nth-child(1){width:42%;font-weight:650}
+  .answer{filter:blur(5px);cursor:pointer;transition:.2s;background:#fbfffb;border-radius:10px;padding:2px 6px;display:inline-block}
+  .answer.show{filter:none;background:#eef8ef}
+  .topic-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .topic{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;min-height:152px}
+  .tag{display:inline-block;font-size:12px;font-weight:800;color:#fff;background:var(--accent);border-radius:999px;padding:3px 10px;margin-bottom:8px}
+  .tag.couple{background:#b96c7a}
+  ruby rt{font-size:.55em;color:#52786f;font-weight:500}
+  .word td:first-child{font-weight:800;color:#345d52}
+  .footer{margin-top:38px;text-align:center;color:var(--muted);font-size:13px}
+  .mini{font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="page">
+  <section class="hero">
+    <span class="label">ユミ랑 언어공부 · 한국어 Lv.2 · Day 01</span>
+    <h1>오늘의 주제: ~아/어 본 적 있어요 / ~아/어 봤어요</h1>
+    <p class="subtitle">経験を話すための韓国語。旅行・食べ物・恋愛の会話にすぐ使える表現です。</p>
+  </section>
+
+  <h2>1. 오늘의 목표</h2>
+  <section class="goal">
+    <div>① 自分の経験を韓国語で言える。</div>
+    <div>② 「したことがあります」と「してみました」の違いを理解する。</div>
+    <div>③ 質問 → 答え → 追加説明まで会話をつなげる。</div>
+  </section>
+
+  <h2>2. 오늘의 패턴 + 짧은 문장 연습</h2>
+  <section class="card">
+    <h3>패턴 A</h3>
+    <div class="pattern">동사 + 아/어 본 적 있어요</div>
+    <p>意味: 「〜したことがあります」</p>
+    <p class="note">ポイント: 経験の有無を話す表現です。日本語の「〜したことがある」に近いです。</p>
+    <table>
+      <tr><th>동사</th><th>표현</th><th>일본어 뜻</th></tr>
+      <tr><td>가다</td><td>가 본 적 있어요</td><td>行ったことがあります</td></tr>
+      <tr><td>먹다</td><td>먹어 본 적 있어요</td><td>食べたことがあります</td></tr>
+      <tr><td>보다</td><td>봐 본 적 있어요</td><td>見たことがあります</td></tr>
+      <tr><td>만나다</td><td>만나 본 적 있어요</td><td>会ったことがあります</td></tr>
+    </table>
+  </section>
+
+  <section class="card">
+    <h3>패턴 B</h3>
+    <div class="pattern">동사 + 아/어 봤어요</div>
+    <p>意味: 「〜してみました / 〜したことがあります」</p>
+    <p class="note">ポイント: 실제로 해 본 경험을 가볍게 말할 때 자주 씁니다. 회화에서는 “먹어 봤어요?”, “가 봤어요?”처럼 매우 많이 사용합니다.</p>
+    <table>
+      <tr><th>질문</th><th>대답</th><th>일본어 뜻</th></tr>
+      <tr><td>제주도에 가 봤어요?</td><td>네, 가 봤어요.</td><td>チェジュ島に行ったことがありますか？ はい、あります。</td></tr>
+      <tr><td>김치찌개 먹어 봤어요?</td><td>아니요, 아직 안 먹어 봤어요.</td><td>キムチチゲを食べたことがありますか？ いいえ、まだ食べていません。</td></tr>
+      <tr><td>소개팅 해 봤어요?</td><td>네, 한 번 해 봤어요.</td><td>合コン・紹介デートをしたことがありますか？ はい、一度あります。</td></tr>
+    </table>
+  </section>
+
+  <h2>3. 말하기 연습</h2>
+  <p class="mini">오른쪽 일본어 문장을 클릭하면 정답이 선명하게 보입니다. 이 섹션의 일본어 한자에만 후리가나를 넣었습니다.</p>
+  <table class="practice">
+    <tr><th>한국어</th><th>일본어</th></tr>
+    <tr><td>일본에 가 본 적 있어요.</td><td><span class="answer"><ruby>日本<rt>にほん</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったことがあります。</span></td></tr>
+    <tr><td>부산에 가 봤어요?</td><td><span class="answer"><ruby>釜山<rt>プサン</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったことがありますか？</span></td></tr>
+    <tr><td>한국 음식을 먹어 본 적 있어요.</td><td><span class="answer"><ruby>韓国料理<rt>かんこくりょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたことがあります。</span></td></tr>
+    <tr><td>이 영화 봐 봤어요?</td><td><span class="answer">この<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>たことがありますか？</span></td></tr>
+    <tr><td>저는 그 사람을 만나 본 적 없어요.</td><td><span class="answer"><ruby>私<rt>わたし</rt></ruby>はその<ruby>人<rt>ひと</rt></ruby>に<ruby>会<rt>あ</rt></ruby>ったことがありません。</span></td></tr>
+    <tr><td>아직 제주도에 안 가 봤어요.</td><td><span class="answer">まだチェジュ<ruby>島<rt>とう</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったことがありません。</span></td></tr>
+    <tr><td>혼자 여행해 본 적 있어요?</td><td><span class="answer"><ruby>一人<rt>ひとり</rt></ruby>で<ruby>旅行<rt>りょこう</rt></ruby>したことがありますか？</span></td></tr>
+    <tr><td>네, 혼자 여행해 봤어요.</td><td><span class="answer">はい、<ruby>一人<rt>ひとり</rt></ruby>で<ruby>旅行<rt>りょこう</rt></ruby>したことがあります。</span></td></tr>
+    <tr><td>한복 입어 본 적 있어요?</td><td><span class="answer">ハンボクを<ruby>着<rt>き</rt></ruby>たことがありますか？</span></td></tr>
+    <tr><td>한국에서 살아 본 적 있어요.</td><td><span class="answer"><ruby>韓国<rt>かんこく</rt></ruby>で<ruby>暮<rt>く</rt></ruby>らしたことがあります。</span></td></tr>
+    <tr><td>이 노래 들어 본 적 있어요?</td><td><span class="answer">この<ruby>歌<rt>うた</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いたことがありますか？</span></td></tr>
+    <tr><td>매운 음식을 먹어 봤어요.</td><td><span class="answer"><ruby>辛<rt>から</rt></ruby>い<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたことがあります。</span></td></tr>
+    <tr><td>그 카페에 가 본 적 있어요?</td><td><span class="answer">そのカフェに<ruby>行<rt>い</rt></ruby>ったことがありますか？</span></td></tr>
+    <tr><td>저는 아직 운전해 본 적 없어요.</td><td><span class="answer"><ruby>私<rt>わたし</rt></ruby>はまだ<ruby>運転<rt>うんてん</rt></ruby>したことがありません。</span></td></tr>
+    <tr><td>늦게까지 일해 본 적 있어요.</td><td><span class="answer"><ruby>遅<rt>おそ</rt></ruby>くまで<ruby>働<rt>はたら</rt></ruby>いたことがあります。</span></td></tr>
+    <tr><td>외국어를 배워 본 적 있어요?</td><td><span class="answer"><ruby>外国語<rt>がいこくご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>ったことがありますか？</span></td></tr>
+    <tr><td>네, 일본어를 배워 봤어요.</td><td><span class="answer">はい、<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>ったことがあります。</span></td></tr>
+    <tr><td>그 앱을 써 본 적 있어요?</td><td><span class="answer">そのアプリを<ruby>使<rt>つか</rt></ruby>ったことがありますか？</span></td></tr>
+    <tr><td>저는 그런 경험은 아직 없어요.</td><td><span class="answer"><ruby>私<rt>わたし</rt></ruby>はそういう<ruby>経験<rt>けいけん</rt></ruby>はまだありません。</span></td></tr>
+    <tr><td>한 번쯤 해 보고 싶어요.</td><td><span class="answer"><ruby>一度<rt>いちど</rt></ruby>くらいやってみたいです。</span></td></tr>
+  </table>
+
+  <h2>4. 자유회화 주제</h2>
+  <section class="topic-grid">
+    <div class="topic"><span class="tag">경험</span><h3>가 본 적 있는 나라</h3><p>今まで行ったことがある国・都市について話しましょう。</p></div>
+    <div class="topic"><span class="tag">음식</span><h3>먹어 본 한국 음식</h3><p>食べたことがある韓国料理と、まだ食べていない料理を話しましょう。</p></div>
+    <div class="topic"><span class="tag couple">데이트</span><h3>해 보고 싶은 데이트</h3><p>一度やってみたいデート、もう一度したいデートについて話しましょう。</p></div>
+    <div class="topic"><span class="tag couple">데이트</span><h3>데이트에서 중요한 것</h3><p>デートで大切にしたいこと、相手にしてもらうとうれしいことを話しましょう。</p></div>
+  </section>
+
+  <h2>5. 단어</h2>
+  <table class="word">
+    <tr><th>한국어</th><th>일본어 뜻</th><th>예문</th></tr>
+    <tr><td>경험</td><td>経験</td><td>그런 경험은 아직 없어요.</td></tr>
+    <tr><td>여행하다</td><td>旅行する</td><td>혼자 여행해 본 적 있어요?</td></tr>
+    <tr><td>살다</td><td>住む / 暮らす</td><td>한국에서 살아 본 적 있어요.</td></tr>
+    <tr><td>소개팅</td><td>紹介デート</td><td>소개팅 해 본 적 있어요?</td></tr>
+    <tr><td>장거리 연애</td><td>遠距離恋愛</td><td>장거리 연애를 해 본 적 없어요.</td></tr>
+    <tr><td>진지하게</td><td>真剣に</td><td>진지하게 이야기해 봤어요.</td></tr>
+  </table>
+
+  <div class="footer">ユミ랑 언어공부 · KR Lv.2 Day 01</div>
+</div>
+<script>
+  document.querySelectorAll('.answer').forEach(el=>el.addEventListener('click',()=>el.classList.toggle('show')));
+</script>
+</body>
+</html>
