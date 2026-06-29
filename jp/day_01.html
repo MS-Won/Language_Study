@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ユミ랑 언어공부 - 일본어 Lv.1 Day 01</title>
+<style>
+  :root{
+    --bg:#f7f3ed; --card:#fffaf3; --ink:#2f2923; --muted:#7b6f63;
+    --accent:#d88459; --accent2:#8f6f52; --line:#eadccc; --soft:#f1e5d8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Pretendard,"Noto Sans KR",sans-serif;line-height:1.72}
+  .page{max-width:980px;margin:0 auto;padding:34px 18px 80px}
+  .hero{background:linear-gradient(135deg,#fff7ec,#f5dfcc);border:1px solid var(--line);border-radius:28px;padding:32px;box-shadow:0 14px 40px rgba(90,55,25,.08)}
+  .label{display:inline-block;padding:5px 12px;border-radius:999px;background:#fff;color:var(--accent2);font-weight:700;font-size:13px;border:1px solid var(--line)}
+  h1{margin:12px 0 8px;font-size:34px;line-height:1.22}
+  h2{margin:42px 0 14px;font-size:24px;border-left:7px solid var(--accent);padding-left:12px}
+  h3{margin:18px 0 8px;font-size:18px;color:var(--accent2)}
+  .subtitle{color:var(--muted);font-size:16px;margin:0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;margin:14px 0;box-shadow:0 8px 22px rgba(80,50,20,.05)}
+  .goal{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+  .goal div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px}
+  .pattern{font-size:26px;font-weight:800;letter-spacing:.2px;margin:8px 0;color:#5b3f2a}
+  .note{color:var(--muted);font-size:14px}
+  table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border-radius:18px;border:1px solid var(--line);background:#fff;margin:12px 0}
+  th,td{padding:14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#f3e4d4;text-align:left;color:#5b3f2a}
+  tr:last-child td{border-bottom:none}
+  .practice td:nth-child(1){width:42%;font-weight:650}
+  .answer{filter:blur(5px);cursor:pointer;transition:.2s;background:#fffaf4;border-radius:10px;padding:2px 6px;display:inline-block}
+  .answer.show{filter:none;background:#fff1df}
+  .topic-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .topic{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;min-height:152px}
+  .tag{display:inline-block;font-size:12px;font-weight:800;color:#fff;background:var(--accent);border-radius:999px;padding:3px 10px;margin-bottom:8px}
+  .tag.couple{background:#b96c7a}
+  ruby rt{font-size:.55em;color:#8d6a50;font-weight:500}
+  .word td:first-child{font-weight:800;color:#5b3f2a}
+  .footer{margin-top:38px;text-align:center;color:var(--muted);font-size:13px}
+  .mini{font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="page">
+  <section class="hero">
+    <span class="label">ユミ랑 언어공부 · 일본어 Lv.1 · Day 01</span>
+    <h1><ruby>今日<rt>きょう</rt></ruby>のテーマ: ～たいです / ～たくないです</h1>
+    <p class="subtitle">하고 싶은 것과 하기 싫은 것을 부드럽게 말하는 첫 번째 회화 수업</p>
+  </section>
+
+  <h2>1. <ruby>今日<rt>きょう</rt></ruby>の<ruby>目標<rt>もくひょう</rt></ruby></h2>
+  <section class="goal">
+    <div>① “~하고 싶어요”를 일본어로 말할 수 있다.</div>
+    <div>② “~하고 싶지 않아요”를 자연스럽게 말할 수 있다.</div>
+    <div>③ 음식, 장소, 데이트, 공부 주제로 짧게 대답할 수 있다.</div>
+  </section>
+
+  <h2>2. <ruby>今日<rt>きょう</rt></ruby>のパターン + 짧은 문장 연습</h2>
+  <section class="card">
+    <h3>패턴 A</h3>
+    <div class="pattern">동사ます형 + たいです</div>
+    <p>뜻: “~하고 싶어요”</p>
+    <p class="note">원리: 일본어에서 <b>たい</b>는 “싶다”라는 형용사처럼 붙는다. 그래서 <b><ruby>食<rt>た</rt></ruby>べます</b>에서 ます를 빼고 <b><ruby>食<rt>た</rt></ruby>べたいです</b>가 된다.</p>
+    <table>
+      <tr><th>기본형</th><th>ます형</th><th>～たいです</th><th>뜻</th></tr>
+      <tr><td><ruby>食<rt>た</rt></ruby>べる</td><td><ruby>食<rt>た</rt></ruby>べます</td><td><ruby>食<rt>た</rt></ruby>べたいです</td><td>먹고 싶어요</td></tr>
+      <tr><td><ruby>行<rt>い</rt></ruby>く</td><td><ruby>行<rt>い</rt></ruby>きます</td><td><ruby>行<rt>い</rt></ruby>きたいです</td><td>가고 싶어요</td></tr>
+      <tr><td><ruby>見<rt>み</rt></ruby>る</td><td><ruby>見<rt>み</rt></ruby>ます</td><td><ruby>見<rt>み</rt></ruby>たいです</td><td>보고 싶어요</td></tr>
+      <tr><td>する</td><td>します</td><td>したいです</td><td>하고 싶어요</td></tr>
+    </table>
+  </section>
+
+  <section class="card">
+    <h3>패턴 B</h3>
+    <div class="pattern">동사ます형 + たくないです</div>
+    <p>뜻: “~하고 싶지 않아요”</p>
+    <p class="note">원리: <b>たい</b>는 い형용사처럼 변한다. い형용사의 부정은 <b>～くない</b>. 그래서 <b>たい → たくない</b>가 된다.</p>
+    <table>
+      <tr><th>긍정</th><th>부정</th><th>뜻</th></tr>
+      <tr><td><ruby>食<rt>た</rt></ruby>べたいです</td><td><ruby>食<rt>た</rt></ruby>べたくないです</td><td>먹고 싶지 않아요</td></tr>
+      <tr><td><ruby>行<rt>い</rt></ruby>きたいです</td><td><ruby>行<rt>い</rt></ruby>きたくないです</td><td>가고 싶지 않아요</td></tr>
+      <tr><td><ruby>勉強<rt>べんきょう</rt></ruby>したいです</td><td><ruby>勉強<rt>べんきょう</rt></ruby>したくないです</td><td>공부하고 싶지 않아요</td></tr>
+    </table>
+  </section>
+
+  <h2>3. <ruby>話<rt>はな</rt></ruby>す<ruby>練習<rt>れんしゅう</rt></ruby></h2>
+  <p class="mini">오른쪽 일본어 문장을 클릭하면 정답이 선명하게 보입니다.</p>
+  <table class="practice">
+    <tr><th>한국어</th><th>일본어</th></tr>
+    <tr><td>저는 라멘을 먹고 싶어요.</td><td><span class="answer"><ruby>私<rt>わたし</rt></ruby>はラーメンを<ruby>食<rt>た</rt></ruby>べたいです。</span></td></tr>
+    <tr><td>오늘은 집에 가고 싶어요.</td><td><span class="answer"><ruby>今日<rt>きょう</rt></ruby>は<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>りたいです。</span></td></tr>
+    <tr><td>영화를 보고 싶어요.</td><td><span class="answer"><ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>たいです。</span></td></tr>
+    <tr><td>일본어를 공부하고 싶어요.</td><td><span class="answer"><ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>したいです。</span></td></tr>
+    <tr><td>커피를 마시고 싶어요.</td><td><span class="answer">コーヒーを<ruby>飲<rt>の</rt></ruby>みたいです。</span></td></tr>
+    <tr><td>오늘은 일하고 싶지 않아요.</td><td><span class="answer"><ruby>今日<rt>きょう</rt></ruby>は<ruby>仕事<rt>しごと</rt></ruby>したくないです。</span></td></tr>
+    <tr><td>매운 음식은 먹고 싶지 않아요.</td><td><span class="answer"><ruby>辛<rt>から</rt></ruby>い<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>は<ruby>食<rt>た</rt></ruby>べたくないです。</span></td></tr>
+    <tr><td>지금은 자고 싶어요.</td><td><span class="answer"><ruby>今<rt>いま</rt></ruby>は<ruby>寝<rt>ね</rt></ruby>たいです。</span></td></tr>
+    <tr><td>아침에 산책하고 싶어요.</td><td><span class="answer"><ruby>朝<rt>あさ</rt></ruby>、<ruby>散歩<rt>さんぽ</rt></ruby>したいです。</span></td></tr>
+    <tr><td>책을 읽고 싶어요.</td><td><span class="answer"><ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みたいです。</span></td></tr>
+    <tr><td>오늘은 밖에 나가고 싶지 않아요.</td><td><span class="answer"><ruby>今日<rt>きょう</rt></ruby>は<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>たくないです。</span></td></tr>
+    <tr><td>같이 사진을 찍고 싶어요.</td><td><span class="answer"><ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>りたいです。</span></td></tr>
+    <tr><td>오늘은 술을 마시고 싶지 않아요.</td><td><span class="answer"><ruby>今日<rt>きょう</rt></ruby>はお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みたくないです。</span></td></tr>
+    <tr><td>일본에 가고 싶어요.</td><td><span class="answer"><ruby>日本<rt>にほん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。</span></td></tr>
+    <tr><td>한국 음식을 먹고 싶어요.</td><td><span class="answer"><ruby>韓国料理<rt>かんこくりょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたいです。</span></td></tr>
+    <tr><td>운동하고 싶지 않아요.</td><td><span class="answer"><ruby>運動<rt>うんどう</rt></ruby>したくないです。</span></td></tr>
+    <tr><td>청소하고 싶어요.</td><td><span class="answer"><ruby>掃除<rt>そうじ</rt></ruby>したいです。</span></td></tr>
+    <tr><td>오늘은 조용히 쉬고 싶어요.</td><td><span class="answer"><ruby>今日<rt>きょう</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かに<ruby>休<rt>やす</rt></ruby>みたいです。</span></td></tr>
+    <tr><td>새로운 가게에 가고 싶어요.</td><td><span class="answer"><ruby>新<rt>あたら</rt></ruby>しいお<ruby>店<rt>みせ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。</span></td></tr>
+    <tr><td>오늘은 아무것도 하고 싶지 않아요.</td><td><span class="answer"><ruby>今日<rt>きょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>もしたくないです。</span></td></tr>
+  </table>
+
+  <h2>4. <ruby>自由会話<rt>じゆうかいわ</rt></ruby>トピック</h2>
+  <section class="topic-grid">
+    <div class="topic"><span class="tag">일상</span><h3><ruby>今日<rt>きょう</rt></ruby><ruby>食<rt>た</rt></ruby>べたいもの</h3><p>오늘 가장 먹고 싶은 음식은 무엇인가요? 왜 먹고 싶나요?</p></div>
+    <div class="topic"><span class="tag">여행</span><h3><ruby>行<rt>い</rt></ruby>きたい<ruby>場所<rt>ばしょ</rt></ruby></h3><p>지금 여행을 간다면 어디에 가고 싶나요?</p></div>
+    <div class="topic"><span class="tag couple">데이트</span><h3><ruby>理想<rt>りそう</rt></ruby>のデート</h3><p>이상적인 데이트는 집 데이트인가요, 밖에서 하는 데이트인가요?</p></div>
+    <div class="topic"><span class="tag couple">데이트</span><h3>デートで<ruby>行<rt>い</rt></ruby>きたい<ruby>場所<rt>ばしょ</rt></ruby></h3><p>데이트를 한다면 카페, 영화관, 공원 중 어디에 가고 싶나요?</p></div>
+  </section>
+
+  <h2>5. <ruby>単語<rt>たんご</rt></ruby></h2>
+  <table class="word">
+    <tr><th>일본어</th><th>뜻</th><th>예문</th></tr>
+    <tr><td><ruby>食<rt>た</rt></ruby>べる</td><td>먹다</td><td>ラーメンを<ruby>食<rt>た</rt></ruby>べたいです。</td></tr>
+    <tr><td><ruby>飲<rt>の</rt></ruby>む</td><td>마시다</td><td>コーヒーを<ruby>飲<rt>の</rt></ruby>みたいです。</td></tr>
+    <tr><td><ruby>行<rt>い</rt></ruby>く</td><td>가다</td><td><ruby>日本<rt>にほん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。</td></tr>
+    <tr><td><ruby>見<rt>み</rt></ruby>る</td><td>보다</td><td><ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>たいです。</td></tr>
+    <tr><td><ruby>会<rt>あ</rt></ruby>う</td><td>만나다</td><td>あなたに<ruby>会<rt>あ</rt></ruby>いたいです。</td></tr>
+    <tr><td><ruby>結婚<rt>けっこん</rt></ruby>する</td><td>결혼하다</td><td>いつか<ruby>結婚<rt>けっこん</rt></ruby>したいです。</td></tr>
+  </table>
+
+  <div class="footer">ユミ랑 언어공부 · JP Lv.1 Day 01</div>
+</div>
+<script>
+  document.querySelectorAll('.answer').forEach(el=>el.addEventListener('click',()=>el.classList.toggle('show')));
+</script>
+</body>
+</html>
